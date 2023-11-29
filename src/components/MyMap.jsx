@@ -9,7 +9,8 @@ import hongshanqu from "../assets/geo/hongshanqu.json"
 import earthquakes from "../assets/geo/earthquakes.json"
 import {useDayOrNight} from "../hooks/DayOrNight.js";
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiemhvbmdkaXNodW1hIiwiYSI6ImNsNXJoYXR5eTI2bGgzZW53d2didWF1c3AifQ.6vOplM2NQc_xnJW3aA5ZBA';
+// TODO 记得填上自己的token pk.eyJ1IjoiemhvbmdkaXNodW1hIiwiYSI6ImNsNXJoYXR5eTI2bGgzZW53d2didWF1c3AifQ.6vOplM2NQc_xnJW3aA5ZBA
+mapboxgl.accessToken = '';
 
 function MyMap() {
     const mapContainer = useRef(null);
